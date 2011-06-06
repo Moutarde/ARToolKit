@@ -4575,7 +4575,7 @@
 				GCC_VERSION = 4.2;
 				HEADER_SEARCH_PATHS = include;
 				INFOPLIST_FILE = "esiee/esiee-Info.plist";
-				INSTALL_PATH = "$(HOME)/Desktop/ARToolKit/bin";
+				INSTALL_PATH = "$(SRCROOT)/bin";
 				LIBRARY_SEARCH_PATHS = (
 					lib,
 					"$(SRCROOT)/lib",

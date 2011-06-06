@@ -274,7 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>0</integer>
+									<integer>65</integer>
+									<integer>28</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -325,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>377FC682139D4180007B0109</string>
+										<string>3762E6FB139D49DC00F1A9CC</string>
 										<key>history</key>
 										<array>
 											<string>37968EEE139D2A20000DE6FF</string>
@@ -342,7 +343,7 @@
 											<string>373B75CA139D3FE00079B44C</string>
 											<string>373B75CB139D3FE00079B44C</string>
 											<string>373B75CC139D3FE00079B44C</string>
-											<string>373B75CF139D3FE00079B44C</string>
+											<string>372A14DE139D49C60023125E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -354,14 +355,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {563, 192}}</string>
+								<string>{{0, 0}, {563, 167}}</string>
 								<key>RubberWindowFrame</key>
 								<string>76 240 802 509 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>192pt</string>
+							<string>167pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -374,14 +375,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 197}, {563, 271}}</string>
+								<string>{{0, 172}, {563, 296}}</string>
 								<key>RubberWindowFrame</key>
 								<string>76 240 802 509 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>271pt</string>
+							<string>296pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -400,9 +401,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>377FC66D139D4117007B0109</string>
+				<string>3762E6FC139D49DC00F1A9CC</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>377FC66E139D4117007B0109</string>
+				<string>3762E6FD139D49DC00F1A9CC</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -540,7 +541,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>37DADE16137ACFC700DFE5AB</string>
 		<string>/Users/Nicolas/Desktop/ARToolKit/ARToolKit.xcodeproj</string>
 	</array>
@@ -622,7 +622,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>37DADE16137ACFC700DFE5AB</string>
-				<string>377FC66F139D4117007B0109</string>
+				<string>3762E6FE139D49DC00F1A9CC</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
