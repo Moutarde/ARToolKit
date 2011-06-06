@@ -1,0 +1,27 @@
+INC_DIR= ../include
+LIB_DIR= ../lib
+BIN_DIR= ../bin
+
+LDFLAG=@LDFLAG@ -L$(LIB_DIR)
+LIBS= -lARgsub -lARvideo -lAR @LIBS@
+CFLAG= @CFLAG@ -I$(INC_DIR)
+
+OBJS =
+HEADDERS =
+
+all: $(BIN_DIR)/esiee
+
+$(BIN_DIR)/esiee: esiee.o $(OBJS)
+	cc -o $(BIN_DIR)/esiee esiee.o $(OBJS) $(LDFLAG) $(LIBS)
+
+esiee.o: esiee.c $(HEADDERS)
+	cc -c $(CFLAG) esiee.c
+
+clean:
+	rm -f *.o
+	rm -f $(BIN_DIR)/esiee
+
+allclean:
+	rm -f *.o
+	rm -f $(BIN_DIR)/esiee
+	rm -f Makefile
