@@ -1,27 +1,48 @@
-INC_DIR= ../include
-LIB_DIR= ../lib
-BIN_DIR= ../bin
+UNAME = $(shell uname)
 
-LDFLAG=@LDFLAG@ -L$(LIB_DIR)
-LIBS= -lARgsub -lARvideo -lAR @LIBS@
-CFLAG= @CFLAG@ -I$(INC_DIR)
+AR_HOME = ..
+AR_CPPFLAGS = -I$(AR_HOME)/include
+AR_LDFLAGS = -L$(AR_HOME)/lib
 
-OBJS =
-HEADDERS =
+VRML_HOME = /usr
+ifeq "$(UNAME)" "Darwin"
+    VRML_HOME = /sw
+endif
+VRML_CPPFLAGS =
+VRML_LDFLAGS = -L$(VRML_HOME)/lib
 
-all: $(BIN_DIR)/esiee
+CPPFLAGS = $(AR_CPPFLAGS) $(VRML_CPPFLAGS)
+CFLAGS = @CFLAG@
+CXXFLAGS = @CFLAG@
+LDFLAGS = $(AR_LDFLAGS) $(VRML_LDFLAGS) @LDFLAG@
+LIBS = -lARvrml -lARgsub_lite -lARvideo -lAR \
+    -lopenvrml -lopenvrml-gl -lstdc++ -ljpeg -lpng -lz -lm \
+    @LIBS@
+AR = ar
+ARFLAGS = @ARFLAG@
+RANLIB = @RANLIB@
 
-$(BIN_DIR)/esiee: esiee.o $(OBJS)
-	cc -o $(BIN_DIR)/esiee esiee.o $(OBJS) $(LDFLAG) $(LIBS)
+TARGET = $(AR_HOME)/bin/esiee
 
-esiee.o: esiee.c $(HEADDERS)
-	cc -c $(CFLAG) esiee.c
+HEADERS = \
+    object.h
+
+OBJS = \
+    object.o \
+    esiee.o
+
+default build all: $(TARGET)
+
+$(OBJS) : $(HEADERS)
+
+$(TARGET): $(OBJS)
+	$(CC) $(LDFLAGS) -o $@ $^ $(LIBS)
 
 clean:
-	rm -f *.o
-	rm -f $(BIN_DIR)/esiee
+	-rm -f *.o *~ *.bak
+	-rm $(TARGET)
 
 allclean:
-	rm -f *.o
-	rm -f $(BIN_DIR)/esiee
-	rm -f Makefile
+	-rm -f *.o *~ *.bak
+	-rm $(TARGET)
+	-rm -f Makefile

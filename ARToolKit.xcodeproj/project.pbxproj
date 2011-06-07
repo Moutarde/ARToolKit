@@ -110,6 +110,7 @@
 				4AB9FFA50651CE8C003B9097 /* PBXTargetDependency */,
 				4AB9FFA70651CE8C003B9097 /* PBXTargetDependency */,
 				4AB9FFA90651CE8C003B9097 /* PBXTargetDependency */,
+				37440F97139E3EF000E360DC /* PBXTargetDependency */,
 			);
 			name = "ARToolKit complete";
 			productName = "ARToolKit complete";
@@ -118,7 +119,6 @@
 
 /* Begin PBXBuildFile section */
 		373B751E139D2E5B0079B44C /* libAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE230340659B7A80047D402 /* libAR.a */; };
-		373B751F139D2E5B0079B44C /* libARgsub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE230150659B7A80047D402 /* libARgsub.a */; };
 		373B7520139D2E5B0079B44C /* libARvideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE230010659B7A80047D402 /* libARvideo.a */; };
 		373B7522139D2E5B0079B44C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373B7521139D2E5B0079B44C /* Carbon.framework */; };
 		373B7524139D2E5B0079B44C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373B7523139D2E5B0079B44C /* Cocoa.framework */; };
@@ -127,6 +127,22 @@
 		373B752A139D2E5B0079B44C /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373B7529139D2E5B0079B44C /* QuickTime.framework */; };
 		373B7552139D31D30079B44C /* esiee.c in Sources */ = {isa = PBXBuildFile; fileRef = 373B750D139D2DD20079B44C /* esiee.c */; };
 		373B7593139D3B4D0079B44C /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 782EA555089995C300A8A712 /* Data */; };
+		37440F7F139E3B8100E360DC /* libboost_thread-1_33_1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4ADBC7C00B0C0A5E00A1431F /* libboost_thread-1_33_1.dylib */; };
+		37440F80139E3B8100E360DC /* libSDL-1.2.0.11.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 37A793BD139E299D0073F70E /* libSDL-1.2.0.11.0.dylib */; };
+		37440F81139E3B8100E360DC /* libpng12.0.12.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A304AE20A4B8D98003AD621 /* libpng12.0.12.0.dylib */; };
+		37440F82139E3B8100E360DC /* libopenvrml.6.1.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A304ADC0A4B8D98003AD621 /* libopenvrml.6.1.2.dylib */; };
+		37440F83139E3B8100E360DC /* libjpeg.62.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A304AD90A4B8D98003AD621 /* libjpeg.62.0.0.dylib */; };
+		37440F84139E3B8100E360DC /* libopenvrml-gl.6.0.4.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A304ADE0A4B8D98003AD621 /* libopenvrml-gl.6.0.4.dylib */; };
+		37440F88139E3BC200E360DC /* Wrl in Resources */ = {isa = PBXBuildFile; fileRef = 782EA56C089995C300A8A712 /* Wrl */; };
+		37440F8B139E3C6900E360DC /* object.c in Sources */ = {isa = PBXBuildFile; fileRef = 37440F8A139E3C3F00E360DC /* object.c */; };
+		37440F8C139E3CB000E360DC /* libARgsub_lite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE230280659B7A80047D402 /* libARgsub_lite.a */; };
+		37440F8D139E3D2300E360DC /* libARvrml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A83565A074D936800F58781 /* libARvrml.a */; };
+		37440F8E139E3D4E00E360DC /* libjpeg.62.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A304AD90A4B8D98003AD621 /* libjpeg.62.0.0.dylib */; };
+		37440F8F139E3D4E00E360DC /* libopenvrml.6.1.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A304ADC0A4B8D98003AD621 /* libopenvrml.6.1.2.dylib */; };
+		37440F90139E3D4E00E360DC /* libopenvrml-gl.6.0.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A304ADE0A4B8D98003AD621 /* libopenvrml-gl.6.0.4.dylib */; };
+		37440F91139E3D4E00E360DC /* libpng12.0.12.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A304AE20A4B8D98003AD621 /* libpng12.0.12.0.dylib */; };
+		37440F92139E3D4E00E360DC /* libboost_thread-1_33_1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADBC7C00B0C0A5E00A1431F /* libboost_thread-1_33_1.dylib */; };
+		37440F93139E3D4E00E360DC /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF15F2D0AB129780015588E /* libstdc++.6.dylib */; };
 		37A793BE139E299D0073F70E /* libSDL-1.2.0.11.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 37A793BD139E299D0073F70E /* libSDL-1.2.0.11.0.dylib */; };
 		37A793CB139E2A550073F70E /* libboost_thread-1_33_1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4ADBC7C00B0C0A5E00A1431F /* libboost_thread-1_33_1.dylib */; };
 		37A793CC139E2A550073F70E /* libjpeg.62.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A304AD90A4B8D98003AD621 /* libjpeg.62.0.0.dylib */; };
@@ -467,19 +483,33 @@
 			remoteGlobalIDString = 4A3F1305064A02100042B0D7;
 			remoteInfo = ARvideo;
 		};
-		373B751C139D2E200079B44C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4A3F13F4064A091B0042B0D7;
-			remoteInfo = ARgsub;
-		};
 		373B75B6139D3D740079B44C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 373B7511139D2DEE0079B44C;
 			remoteInfo = esiee;
+		};
+		37440F7A139E3B5100E360DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A8EA585065873E100ADDDD1 /* ARgsub_lite */;
+			remoteInfo = ARgsub_lite;
+		};
+		37440F7C139E3B5100E360DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A835659074D936800F58781 /* ARvrml */;
+			remoteInfo = ARvrml;
+		};
+		37440F96139E3EF000E360DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A835647074D914100F58781 /* ARToolKit extensions */;
+			remoteInfo = "ARToolKit extensions";
 		};
 		4A3F14A9064A0B100042B0D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1292,6 +1322,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37440F87139E3B9F00E360DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				37440F7F139E3B8100E360DC /* libboost_thread-1_33_1.dylib in CopyFiles */,
+				37440F80139E3B8100E360DC /* libSDL-1.2.0.11.0.dylib in CopyFiles */,
+				37440F81139E3B8100E360DC /* libpng12.0.12.0.dylib in CopyFiles */,
+				37440F82139E3B8100E360DC /* libopenvrml.6.1.2.dylib in CopyFiles */,
+				37440F83139E3B8100E360DC /* libjpeg.62.0.0.dylib in CopyFiles */,
+				37440F84139E3B8100E360DC /* libopenvrml-gl.6.0.4.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		37A793C9139E29EA0073F70E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1328,6 +1373,8 @@
 		373B7529139D2E5B0079B44C /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
 		373B7590139D3AA40079B44C /* esiee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esiee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		373B75C3139D3F4B0079B44C /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = Makefile.in; path = esiee/Makefile.in; sourceTree = "<group>"; };
+		37440F89139E3C3F00E360DC /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = object.h; path = esiee/object.h; sourceTree = "<group>"; };
+		37440F8A139E3C3F00E360DC /* object.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = object.c; path = esiee/object.c; sourceTree = "<group>"; };
 		37A793BD139E299D0073F70E /* libSDL-1.2.0.11.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL-1.2.0.11.0.dylib"; path = "lib/libSDL-1.2.0.11.0.dylib"; sourceTree = "<group>"; };
 		4A0D818507526B1B00CB0B40 /* ChangeLog.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = ChangeLog.txt; sourceTree = "<group>"; };
 		4A1308AE075BE4A700D62ACD /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
@@ -1666,14 +1713,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37440F8E139E3D4E00E360DC /* libjpeg.62.0.0.dylib in Frameworks */,
+				37440F8F139E3D4E00E360DC /* libopenvrml.6.1.2.dylib in Frameworks */,
+				37440F90139E3D4E00E360DC /* libopenvrml-gl.6.0.4.dylib in Frameworks */,
+				37440F91139E3D4E00E360DC /* libpng12.0.12.0.dylib in Frameworks */,
+				37440F92139E3D4E00E360DC /* libboost_thread-1_33_1.dylib in Frameworks */,
+				37440F93139E3D4E00E360DC /* libstdc++.6.dylib in Frameworks */,
 				373B751E139D2E5B0079B44C /* libAR.a in Frameworks */,
-				373B751F139D2E5B0079B44C /* libARgsub.a in Frameworks */,
 				373B7520139D2E5B0079B44C /* libARvideo.a in Frameworks */,
 				373B7522139D2E5B0079B44C /* Carbon.framework in Frameworks */,
 				373B7524139D2E5B0079B44C /* Cocoa.framework in Frameworks */,
 				373B7526139D2E5B0079B44C /* GLUT.framework in Frameworks */,
 				373B7528139D2E5B0079B44C /* OpenGL.framework in Frameworks */,
 				373B752A139D2E5B0079B44C /* QuickTime.framework in Frameworks */,
+				37440F8C139E3CB000E360DC /* libARgsub_lite.a in Frameworks */,
+				37440F8D139E3D2300E360DC /* libARvrml.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2064,6 +2118,8 @@
 				373B75C3139D3F4B0079B44C /* Makefile.in */,
 				373B7514139D2DEE0079B44C /* esiee-Info.plist */,
 				373B750D139D2DD20079B44C /* esiee.c */,
+				37440F89139E3C3F00E360DC /* object.h */,
+				37440F8A139E3C3F00E360DC /* object.c */,
 			);
 			name = esiee;
 			sourceTree = "<group>";
@@ -2829,13 +2885,15 @@
 				373B750E139D2DEE0079B44C /* Resources */,
 				373B750F139D2DEE0079B44C /* Sources */,
 				373B7510139D2DEE0079B44C /* Frameworks */,
+				37440F87139E3B9F00E360DC /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				373B7519139D2E200079B44C /* PBXTargetDependency */,
 				373B751B139D2E200079B44C /* PBXTargetDependency */,
-				373B751D139D2E200079B44C /* PBXTargetDependency */,
+				37440F7B139E3B5100E360DC /* PBXTargetDependency */,
+				37440F7D139E3B5100E360DC /* PBXTargetDependency */,
 			);
 			name = esiee;
 			productName = esiee;
@@ -3476,6 +3534,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37440F88139E3BC200E360DC /* Wrl in Resources */,
 				373B7593139D3B4D0079B44C /* Data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3693,6 +3752,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37440F8B139E3C6900E360DC /* object.c in Sources */,
 				373B7552139D31D30079B44C /* esiee.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4000,15 +4060,25 @@
 			target = 4A3F1305064A02100042B0D7 /* ARvideo */;
 			targetProxy = 373B751A139D2E200079B44C /* PBXContainerItemProxy */;
 		};
-		373B751D139D2E200079B44C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4A3F13F4064A091B0042B0D7 /* ARgsub */;
-			targetProxy = 373B751C139D2E200079B44C /* PBXContainerItemProxy */;
-		};
 		373B75B7139D3D740079B44C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 373B7511139D2DEE0079B44C /* esiee */;
 			targetProxy = 373B75B6139D3D740079B44C /* PBXContainerItemProxy */;
+		};
+		37440F7B139E3B5100E360DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A8EA585065873E100ADDDD1 /* ARgsub_lite */;
+			targetProxy = 37440F7A139E3B5100E360DC /* PBXContainerItemProxy */;
+		};
+		37440F7D139E3B5100E360DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A835659074D936800F58781 /* ARvrml */;
+			targetProxy = 37440F7C139E3B5100E360DC /* PBXContainerItemProxy */;
+		};
+		37440F97139E3EF000E360DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A835647074D914100F58781 /* ARToolKit extensions */;
+			targetProxy = 37440F96139E3EF000E360DC /* PBXContainerItemProxy */;
 		};
 		4A3F14AA064A0B100042B0D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4587,10 +4657,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = "$(NATIVE_ARCH)";
 				COPY_PHASE_STRIP = YES;
 				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -4599,13 +4666,18 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				GCC_VERSION = 4.2;
-				HEADER_SEARCH_PATHS = include;
+				HEADER_SEARCH_PATHS = (
+					/sw/include,
+					/sw/include/openvrml,
+					include,
+				);
 				INFOPLIST_FILE = "esiee/esiee-Info.plist";
 				INSTALL_PATH = "$(SRCROOT)/bin";
 				LIBRARY_SEARCH_PATHS = (
-					lib,
-					"$(SRCROOT)/lib",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					/sw/lib,
 				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/lib\"";
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = esiee;
@@ -4624,6 +4696,11 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "esiee/esiee-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/lib\"";
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
