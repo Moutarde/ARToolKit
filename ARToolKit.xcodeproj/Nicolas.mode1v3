@@ -326,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>37A793DC139E2B5F0073F70E</string>
+										<string>37CB4032139E375000166974</string>
 										<key>history</key>
 										<array>
 											<string>37968EEE139D2A20000DE6FF</string>
@@ -343,7 +343,7 @@
 											<string>373B75CA139D3FE00079B44C</string>
 											<string>373B75CB139D3FE00079B44C</string>
 											<string>373B75CC139D3FE00079B44C</string>
-											<string>37A793D7139E2A980073F70E</string>
+											<string>37A793DD139E2BC10073F70E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -355,14 +355,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {562, 196}}</string>
+								<string>{{0, 0}, {562, 183}}</string>
 								<key>RubberWindowFrame</key>
 								<string>273 214 801 551 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>196pt</string>
+							<string>183pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -375,14 +375,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 201}, {562, 309}}</string>
+								<string>{{0, 188}, {562, 322}}</string>
 								<key>RubberWindowFrame</key>
 								<string>273 214 801 551 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>309pt</string>
+							<string>322pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -401,9 +401,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>37A793A9139E285F0073F70E</string>
+				<string>37CB4033139E375000166974</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>37A793AA139E285F0073F70E</string>
+				<string>37CB4034139E375000166974</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -541,7 +541,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>37DADE16137ACFC700DFE5AB</string>
 		<string>/Users/Nicolas/Desktop/ARToolKit/ARToolKit.xcodeproj</string>
 	</array>
@@ -567,7 +566,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>gsub_lite.h</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -584,8 +583,6 @@
 							<string>194pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -625,7 +622,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>37DADE16137ACFC700DFE5AB</string>
-				<string>37A793AB139E285F0073F70E</string>
+				<string>37CB4035139E375000166974</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
